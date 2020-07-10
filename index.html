@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="buttons">
+        <button id="clear">Clear Screen</button>
+        <div class="input-wrapper">
+            <label>Linhas:</label> 
+            <input id="colunas" type="text" placeholder="16">
+        </div>
+        <div class="input-wrapper">
+            <label>Colunas:</label>
+            <input id="linhas" type="text" placeholder="16">
+        </div>
+
+        <div class="button-wrapper">
+            <button id="black">Black</button>
+            <button id="randomColor">Random Color</button>
+        </div>
+    </div>
+    <div id="container"></div>
+    <script src="/index.js"></script>
+</body>
+</html>
